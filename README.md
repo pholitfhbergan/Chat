@@ -1,21 +1,70 @@
-# Chatbouvet
-2 gangsintervju oppgave
+# Getting Started with Create React App
 
- Lage en chatbot for 2 gangsintervju
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- Brukeren går inn på en nettside laget av deg. (domenet/hostingplattform er valgfritt, gjerne noe gratis, f.eks Firebase eller Github)
-- Brukeren blir møtt med en melding som sier “Velkommen til chatten”.
-- Brukeren får generert, og blir vist, et tilfeldig navn fra SSBs navne-API. (https://www.ssb.no/statbank/table/10467/tableViewLayout1/)
-  - Fornavnet kan være enten et guttenavn eller jentenavn.
-  - Etternavnet er et tilfeldig fornavn, med “-sen” eller “-dottir” lagt til på slutten - avhengig av om det valgte navnet var et gutte- eller jentenavn.
-  - Hvis brukeren er misfornøyd med navnet sitt, kan brukeren trykke på en knapp og få tildelt et nytt brukernavn 4.Når brukeren er fornøyd med navnet, kan    vedkommende trykke “Fortsett til chatten”, og blitt tatt til et chattevindu
-  - I chattevinduet kan brukere fra hele verden skrive til hverandre. Chatten skal oppdateres i sanntid, og skal til enhver tid vise de 10 siste meldingene     som ble skrevet.
-  - Brukernavnet til personen som skrev meldingen skal stå før hver melding
-  - Under chattevinduet skal det være et input-felt hvor brukeren selv kan skrive inn meldinger
-  - Løsningen skal lages i React.js. Bruk av Typescript er et stort pluss.
+## Available Scripts
 
-- Løsningen har ingen innlogging. Det stilles heller ingen krav til sikkerhet, men under intervjuet vil vi gjerne høre dine tanker om hvordan det kan gjøres sikkert.
+In the project directory, you can run:
 
-- Løsningen vil kreve en database som kan pushe oppdateringer til klienten i sanntid. Vi anbefaler Firebase Firestore til dette, men kandidaten står fritt til å velge en annen database/API-løsning med f.eks websockets.
+### `npm start`
 
-- Innleveringen skal inneholde en link til applikasjonen, samt en link til et åpent Github-repo hvor koden ligger
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
